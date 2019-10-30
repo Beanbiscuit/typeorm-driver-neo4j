@@ -1,0 +1,43 @@
+{
+  "name": "typeorm-driver-neo4j",
+  "version": "1.0.0",
+  "description": "Neo4j driver for TypeORM",
+  "main": "dist/main/ts/index.ts",
+  "scripts": {
+    "test": "npx jest",
+    "test-watch": "npx jest --watch",
+    "watch": "tsc -w",
+    "compile": "tsc --extendedDiagnostics --outDir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beanbiscuit/typeorm-driver-neo4j.git"
+  },
+  "keywords": [
+    "Neo4j",
+    "ORM",
+    "TypeScript",
+    "Javascript",
+    "Graph",
+    "Databse",
+    "Driver"
+  ],
+  "author": "Bruce Silver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Beanbiscuit/typeorm-driver-neo4j/issues"
+  },
+  "homepage": "https://github.com/Beanbiscuit/typeorm-driver-neo4j#readme",
+  "dependencies": {
+    "neo4j-driver": "^1.7.6",
+    "reflect-metadata": "^0.1.*",
+    "typeorm": "^0.2.*"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.*",
+    "@types/node": "^10.17.*",
+    "jest": "^24.9.*",
+    "ts-jest": "24.1.*",
+    "typescript": "^3.2.*"
+  }
+}

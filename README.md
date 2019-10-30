@@ -1,2 +1,7 @@
-# typeorm-driver-neo4j
-Neo4j driver for TypeORM
+# Neo4j driver for TypeORM #
+
+## Overview ##
+
+Neo4j driver for TypeORM.
+
+## Configuration ##
